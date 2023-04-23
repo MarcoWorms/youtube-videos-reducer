@@ -77,8 +77,7 @@ def process_video(youtube_link):
         os.makedirs(folder_name)
 
     video_id = youtube_link.split("watch?v=")[-1]
-    truncated_title = video_title[:15].replace(" ", "_")  # Truncate and replace spaces with underscores
-    file_prefix = f"{folder_name}/{video_id}_{truncated_title}"
+    file_prefix = f"{folder_name}/{video_id}"
 
     with open(f"{file_prefix}_transcription.txt", "w") as f:
         f.write(f"Title: {video_title}\n\n{transcription}")
