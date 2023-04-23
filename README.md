@@ -10,3 +10,11 @@ Reduces into whatever you configured:
 
 - [example individual video transcriptions and summaries](https://github.com/MarcoWorms/youtube-videos-reducer/tree/main/example_transcriptions)
 - [example final summary made from all video summaries](https://github.com/MarcoWorms/youtube-videos-reducer/blob/main/example_result.md)
+
+## Develop
+
+- `git clone https://github.com/MarcoWorms/youtube-videos-reducer.git`
+- `cd youtube-videos-reducer`
+- `pip install -r "requirements.txt"`
+- export OPENAI_API_KEY to your environment variables
+- `python main.py`
