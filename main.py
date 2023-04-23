@@ -2,8 +2,9 @@ import os
 import requests
 import yt_dlp
 import json
+import sys
 
-api_key = "YOUR_API_KEY"
+api_key = os.environ.get("OPENAI_API_KEY")
 
 def download_audio(youtube_link, file_path):
     ydl_opts = {
@@ -29,21 +30,28 @@ def transcribe_audio(file_path):
         data = {"model": "whisper-1", "language": "en"}
         response = requests.post(url, headers=headers, files=files, data=data)
 
+    print("Transcription:", response.json())
+
     return response.json()["text"]
 
-def summarize_text(transcription):
+def summarize_text(transcription, model, max_tokens, prompt):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}",
     }
     data = {
-        "model": "gpt-3.5-turbo",
+        "model": model,
         "temperature": 0,
+        "max_tokens": max_tokens,
         "messages": [
             {
                 "role": "user",
-                "content": "Summarize the following text as a list with everything important for the core of this content: " + transcription,
+                "content": transcription,
+            },
+            {
+                "role": "user",
+                "content": prompt,
             }
         ],
     }
@@ -75,7 +83,7 @@ def process_video(youtube_link):
     with open(f"{file_prefix}_transcription.txt", "w") as f:
         f.write(f"Title: {video_title}\n\n{transcription}")
 
-    summary = summarize_text(transcription)
+    summary = summarize_text(transcription, video_model, video_max_tokens, video_prompt)
 
     # Save the summary to a file
     with open(f"{file_prefix}_summary.txt", "w") as f:
@@ -86,11 +94,31 @@ def process_video(youtube_link):
     # Optional: Remove the downloaded audio file after transcription
     os.remove(output_file_path)
 
+    return f"Title: {video_title}\n\n{summary}"
+
 def main(video_links):
+    video_summaries = []
     for link in video_links:
-        process_video(link)
+        video_summary = process_video(link)
+        video_summaries.append(video_summary)
+    video_summaries_combined ="\n\n".join(video_summaries).strip()
+    summary = summarize_text(video_summaries_combined, summary_model, summary_max_tokens, summary_prompt)
+    with open("result.md", "w") as f:
+        f.write(summary)
+
+
+video_max_tokens = 400
+video_prompt = "Create a list of the most important points from the above video transcription."
+video_model = "gpt-3.5-turbo"
+
+summary_max_tokens = 2048
+summary_prompt = "Create a insightful markdown document containing everything mentioned in the above list of important points taken from videos transcriptions."
+summary_model = "gpt-4"
+
+max_videos = ((8192 - summary_max_tokens) // video_max_tokens)
 
 if __name__ == "__main__":
+    print("Max videos:", max_videos)
     video_links = [
         "https://www.youtube.com/watch?v=k9HYC0EJU6E", # What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)
         "https://www.youtube.com/watch?v=JCYIFtb8DwM", # TOP 3 DEFI WALLETS FOR 2021 - What Features Do They Support?
@@ -108,4 +136,7 @@ if __name__ == "__main__":
         "https://www.youtube.com/watch?v=Xdkkux6OxfM", # What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained
         "https://www.youtube.com/watch?v=BgCgauWVTs0", # Ethereum LAYER 2 SCALING Explained (Rollups, Plasma, Channels, Sidechains)
     ]
+    if len(video_links) > max_videos:
+        print(f"Maximum number of videos allowed with current configuration is {max_videos}")
+        sys.exit(1)
     main(video_links)
