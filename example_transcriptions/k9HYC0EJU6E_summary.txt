@@ -1,0 +1,15 @@
+Title: What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)
+
+1. DeFi or decentralized finance aims to create a new financial system that is open to everyone and doesn't require trusting intermediaries like banks.
+2. DeFi relies heavily on cryptography, blockchain, and smart contracts.
+3. Smart contracts are the main building blocks of DeFi.
+4. Most DeFi projects are currently built on Ethereum due to its robust programming language called Solidity and developed ecosystem.
+5. DeFi is trying to create a whole new financial ecosystem in a permissionless and open way, including lending and borrowing, stablecoins, decentralized exchanges, derivatives, margin trading, and insurance.
+6. MakerDAO was one of the first projects that started the decentralized finance movement, allowing users to log in collateral and generate DAI, a stablecoin that follows the price of the US dollar.
+7. Compound, Aave, and Nexus Mutual are other important DeFi projects in the lending and insurance categories.
+8. Synthetix, DYDX, and Fulcrum are DeFi apps in the derivatives and margin trading space.
+9. Decentralized exchanges or DEXs allow for exchanging crypto assets in a completely decentralized and permissionless way without giving up the custody of the coins.
+10. Chainlink is the most popular project in the Oracle services space, which focuses on delivering reliable data feeds from the outside world into the smart contracts.
+11. DeFi is permissionless, open, censorship-resistant, and cheaper than CeFi or centralized finance.
+12. The potential risks associated with DeFi include bugs in smart contracts, protocol changes, systemic risk, network fees and congestion, and subtle features or changes that may incentivize users to certain non-obvious actions.
+13. DeFi is a nascent industry with high risk and high reward, but it has the potential to disrupt the traditional financial industry.

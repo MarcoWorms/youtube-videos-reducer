@@ -1,0 +1,9 @@
+Title: What Is IMPERMANENT LOSS? DEFI Explained - Uniswap, Curve, Balancer, Bancor
+
+1. Impermanent loss is a temporary loss of funds occurring when providing liquidity.
+2. It occurs when LPs provide liquidity in standard liquidity pools where one of the assets is volatile in relation to the other.
+3. If the LP decides to withdraw their liquidity, the impermanent loss becomes permanent.
+4. Impermanent loss is called impermanent because at this point the LP lost only on paper.
+5. LPs can make money on their capital by collecting trading fees and participating in liquidity mining programs.
+6. Impermanent loss can be minimized by providing liquidity to RF pools, curves liquidity pools, or Balancer pools with arbitrary weights.
+7. Bancor v2 pools can adjust their weights automatically based on the external prices coming from price oracles, completely mitigating impermanent loss.

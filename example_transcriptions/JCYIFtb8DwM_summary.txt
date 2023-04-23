@@ -1,0 +1,12 @@
+Title: TOP 3 DEFI WALLETS FOR 2021 - What Features Do They Support?
+
+1. DeFi-friendly wallets facilitate managing digital assets and interacting with DeFi applications.
+2. Metamask is a popular wallet that allows users to connect to popular DeFi apps and supports ETH and ETH tokens.
+3. Non-custodial wallets require users to take responsibility for wallet recovery and security.
+4. Ledger is a hardware wallet that provides full isolation between private keys and online devices, making it a great option for users with significant digital assets.
+5. Argent is a DeFi-friendly wallet that integrates with multiple DeFi protocols and uses a social recovery model instead of a recovery phrase.
+6. Zapper and Zerion are apps that allow users to see their consolidated DeFi portfolio in one place.
+7. Security measures for recovery phrases include writing it down offline, not storing it online, and not sending funds to a new wallet when recovering an existing wallet.
+8. Pros of Metamask include being non-custodial, easy-to-use, and open source, while cons include being a hot wallet and only supporting Ethereum-based assets.
+9. Pros of Ledger include the highest degree of security available for everyday users, support for a wide range of cryptocurrencies, and integration with Compound via Ledger Live, while cons include the inconvenience of using a separate hardware device and the need to secure the physical device.
+10. Pros of Argent include being non-custodial, not requiring a recovery phrase, integration with popular DeFi protocols, and daily limits and locking options, while cons include a limited understanding of the social recovery model and a limited number of DeFi protocols available.

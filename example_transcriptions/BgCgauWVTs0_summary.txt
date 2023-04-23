@@ -1,0 +1,10 @@
+Title: Ethereum LAYER 2 SCALING Explained (Rollups, Plasma, Channels, Sidechains)
+
+1. Ethereum scaling has been a hot topic since the network launched.
+2. There are two major ways of scaling Ethereum: scaling the base layer (layer 1) or scaling the network by offloading some of the work to another layer (layer 2).
+3. Layer 2 scaling can dramatically increase the number of transactions, depending on the solution, from 2000 to 4000 transactions per second.
+4. Even with sharding, Ethereum will still need layer 2 scaling to handle hundreds of thousands or even millions of transactions per second in the future.
+5. Layer 2 scaling is a collective term for solutions that help increase the capabilities of layer 1 by handling transactions off-chain.
+6. Some of the scaling solutions are application-specific, while others, such as optimistic rollups, can be used for any arbitrary contract executions.
+7. The most popular layer 2 scaling solutions are channels, Plasma, sidechains, and rollups.
+8. The Ethereum community is converging on the approach of mainly scaling through rollups and Ethereum 2.0 phase 1 data sharding.

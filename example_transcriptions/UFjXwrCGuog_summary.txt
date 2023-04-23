@@ -1,0 +1,15 @@
+Title: What Is a VAMPIRE ATTACK? SUSHISWAP Saga Explained
+
+1. SushiSwap used a vampire attack to attract over $1 billion of liquidity in less than a week.
+2. A vampire attack involves incentivizing liquidity providers of another platform to stake their LP tokens to a new platform and then migrating staked LP tokens to the new platform.
+3. SushiSwap incentivized Uniswap's liquidity providers to stake their LP tokens on SushiSwap by offering extra rewards paid in the Sushi token.
+4. SushiSwap used its MasterChef contract to migrate LP tokens from Uniswap to SushiSwap, stealing Uniswap's liquidity.
+5. SushiSwap attracted a lot of capital straight after the launch, reaching $150 million in locked value a few hours after LP tokens staking was enabled.
+6. ChefNomi, the anonymous creator of SushiSwap, had an admin key to the migration contract, which was later resolved by transferring his admin power to a time lock contract.
+7. SushiSwap contracts were launched unaudited, but the project attracted several audits from notable security companies.
+8. The yield farming craze continued, and Binance announced the listing of SushiSwap, resulting in the price of Sushi going as high as $15.
+9. ChefNomi sold his entire sushi stake worth around $14 million for ETH, leading to the community losing trust in him and him leaving the project.
+10. SBF, the CEO of FTX and Almeda Research, became the savior of Sushi and provided even more incentives to the liquidity providers to stay for the migration with an extra 1 million of sushi tokens.
+11. The migration of liquidity to the SushiSwap platform was carried out by SBF on the 9th of September, with around $840 million left for the migration.
+12. ChefNomi came back two days after the migration, returning $14 million worth of ETH to the dev fund and apologizing to the community.
+13. SushiSwap is

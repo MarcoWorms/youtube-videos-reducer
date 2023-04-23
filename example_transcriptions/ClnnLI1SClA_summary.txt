@@ -1,0 +1,10 @@
+Title: What Is YIELD FARMING? DEFI Explained (Compound, Balancer, Curve, Synthetix, Ren)
+
+1. Yield farming is a way of maximizing returns on capital by leveraging different DeFi protocols.
+2. Yield farmers try to chase the highest yield by switching between multiple different strategies.
+3. Liquidity mining, leverage, and risk are the three main elements that make ultra-high returns possible.
+4. Yield farming strategies involve lending, borrowing, supplying capital to liquidity pools, or staking LP tokens.
+5. Yield farming is a high risk, high reward game.
+6. Yield farming strategies can become obsolete quickly due to protocol or incentive changes.
+7. Yield farming has the potential to increase user adoption and attract more people to use DeFi protocols.
+8. Tools are available to facilitate calculating how profitable different yield farming strategies are.

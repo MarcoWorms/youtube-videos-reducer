@@ -1,0 +1,10 @@
+Title: How do LIQUIDITY POOLS work? (Uniswap, Curve, Balancer) | DEFI Explained
+
+1. Liquidity pools are pools of tokens locked in a smart contract used to facilitate trading by providing liquidity.
+2. They are extensively used by decentralized exchanges (DEXs) and were popularized by Uniswap.
+3. Liquidity pools are needed in decentralized finance because the order book model used by traditional exchanges relies heavily on market makers, which is slow, expensive, and results in poor user experience.
+4. Automated market making (AMM) is a mechanism used by liquidity pools to adjust prices according to a deterministic pricing algorithm.
+5. The constant product market maker algorithm used by Uniswap ensures that the product of the quantities of the two supplied tokens always remains the same.
+6. The ratio of the tokens in the pool dictates the price, and the size of the pool in comparison to a trade determines the price impact or slippage.
+7. Curve and Balancer are examples of projects that iterated on the concept of liquidity pools and came up with different ideas.
+8. Impermanent loss and liquidity pool hacks are potential risks associated with liquidity pools in DeFi.

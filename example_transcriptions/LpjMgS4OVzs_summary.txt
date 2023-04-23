@@ -1,0 +1,12 @@
+Title: A Short Story of UNISWAP and UNI Token. DEFI Explained
+
+1. Uniswap is a protocol for decentralized exchange of tokens on the Ethereum blockchain.
+2. Uniswap is built on the concept of liquidity pools and automated market makers.
+3. The initial version of Uniswap was published to the Ethereum mainnet on the 2nd of November 2018.
+4. Uniswap v2 was launched in May 2020, which added ERC20-ERC20 liquidity pools and other features.
+5. Uniswap's trading volume started picking up in May 2020 and grew exponentially in August 2020 due to the yield farming craze.
+6. SushiSwap came into play at the end of August 2020, aiming to compete with Uniswap by forking the project and stealing its liquidity.
+7. Uniswap announced the launch of their new token, Uni, on the 16th of September 2020.
+8. Everyone who had used Uniswap even once before the 1st of September was eligible to claim their 400 Uni tokens.
+9. The Uni tokens were distributed to around 50,000 Ethereum addresses, making them one of the most widely distributed tokens in the space.
+10. Uniswap's Uni token was launched to further decentralize the protocol and make it a publicly owned and self-sustainable financial infrastructure.

@@ -1,0 +1,12 @@
+Title: Borrow Millions In DEFI With NO COLLATERAL? FLASH LOANS Explained (Aave, dYdX)
+
+1. Flash loans allow borrowing any available amount of assets from a designated smart contract pool with no collateral.
+2. Flash loans are useful building blocks in DeFi as they can be used for things like arbitrage, swapping collateral, and self-liquidation.
+3. Flash loans have to be borrowed and repaid within the same blockchain transaction.
+4. Transactions on a blockchain are atomic, meaning either all the steps are executed, or the transaction is rolled back and none of the steps take place.
+5. Flash loan providers like Aave or DYDX developed smart contracts that allow DeFi users to borrow different coins from a designated pool under the condition that they are repaid within the same Ethereum transaction.
+6. There is usually a fixed cost associated with using flash loans.
+7. Flash loans are becoming more and more popular with some of the users borrowing as high as 14 million DAI on Aave.
+8. The three most common use cases for flash loans are arbitrage, collateral swap, and self-liquidation.
+9. Flash loans were used in most of the recent DeFi hacks and allowed hackers to magnify their potential profits as they do not require any upfront funds.
+10. Flash loans can be used without doing any coding using hacks such as CollateralSwap, DeFiSaver, or FuryCombo.

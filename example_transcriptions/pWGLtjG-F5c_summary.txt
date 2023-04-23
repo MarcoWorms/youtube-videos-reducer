@@ -1,0 +1,12 @@
+Title: CODE IS LAW? Smart Contracts Explained (Ethereum, DeFi)
+
+1. Smart contracts are pieces of code that can be executed automatically and in a deterministic way.
+2. Smart contracts aim at removing the human factor from decision making.
+3. Smart contracts follow if-then semantics, which makes them fairly easy to program.
+4. Smart contracts can rely purely on the information available on the blockchain or on an external data source.
+5. Ethereum is a good example of a blockchain that supports smart contracts and makes it possible for a programmer to implement their own smart contracts.
+6. Smart contracts have a growing number of use cases ranging from payments and decentralized finance to supply chain and crowdfunding.
+7. One of the main risks when it comes to smart contracts is bugs.
+8. Even if a smart contract doesn't have any bugs and has been audited, we still cannot guarantee that the change on the platform level will not cause any problems.
+9. Real world issues that cannot be easily communicated by Oracle services are also a risk.
+10. Smart contracts are not a replacement for lawyers, but they can provide valuable knowledge that can be translated into code.

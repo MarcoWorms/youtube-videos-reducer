@@ -1,0 +1,11 @@
+Title: YEARN FINANCE And YFI Token Explained | DeFi, Ethereum
+
+1. Yearn Finance is a yield optimizer that focuses on maximizing DeFi capabilities by automatically switching between different lending protocols.
+2. The YEARN protocol creates a pool for each stablecoin and issues Y tokens that are yield-bearing equivalents of the coin that was deposited.
+3. The protocol checks if there is a better yield available at the time a user deposits or withdraws money from the pool, triggering a rebalance of the pool if necessary.
+4. Yearn vaults are pools of funds with an associated strategy for maximizing returns on the asset in the vault.
+5. The Yearn community votes on the strategy for each vault.
+6. The WIFI token is a governance token that allows other people to make meaningful decisions on the future of the protocol.
+7. The WIFI token had no pre-mine, no VCs allocation, and even no team reward.
+8. The WIFI token is extensively used in the Yearn governance to decide on the future of the protocol.
+9. Yearn is one of the most interesting protocols in the DeFi space, but associated risks should always be understood before using it.

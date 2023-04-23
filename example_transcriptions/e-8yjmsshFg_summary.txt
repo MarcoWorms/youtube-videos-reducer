@@ -1,0 +1,13 @@
+Title: How Does AMPLEFORTH Work? DEFI Explained
+
+1. Ampleforth is a new cryptocurrency with a unique feature - its supply is elastic and can change every day, while the ownership of the Ample tokens is never diluted.
+2. Elastic money supply allows for printing new money or removing money from circulation depending on demand.
+3. Ampleforth is non-dilutive, achieved by applying supply adjustments proportionally across everyone's balances.
+4. Ampleforth tries to solve the inelasticity problem and diversification problem faced by other cryptocurrencies.
+5. There are three states that the Ampleforth protocol can be in - expansion, contraction, or equilibrium.
+6. Price oracles are used to provide external prices to smart contracts.
+7. The target price is currently at 1.009 US dollars, and it represents the 2019 purchasing power of the US dollar as represented by CPI.
+8. Expansion and contraction are achieved automatically by a rebase function in the protocol.
+9. The Ampleforth protocol is implemented as a set of smart contracts deployed to the Ethereum blockchain.
+10. Ampleforth aims at diversifying cryptocurrency portfolios, being used as collateral in DeFi protocols, and creating an alternative to central bank money that is adaptable to shocks.
+11. Ampleforth created an incentive program called Geyser where liquidity providers of the Uniswap Ample ETH pool can stake their LP tokens on Geyser and be rewarded with extra Ample tokens.

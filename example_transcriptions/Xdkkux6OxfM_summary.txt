@@ -1,0 +1,10 @@
+Title: What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained
+
+1. NFTs stand for Non-Fungible Tokens and represent ownership of digitally scarce goods such as art or collectibles.
+2. Fungibility is the characteristic of goods or commodities where each individual unit is interchangeable and indistinguishable from each other.
+3. ERC-20 is a standard for creating fungible tokens on the Ethereum blockchain, while ERC-721 and ERC-1155 are standards for creating non-fungible tokens.
+4. NFTs are unique, provably scarce, and indivisible, and guarantee ownership of the asset, are easily transferable, and are fraud-proof.
+5. NFTs can be used in decentralized finance as collateral for borrowing money, representing complex financial products such as insurance, bonds, or options, and even for liquidity mining.
+6. The market for NFTs is often illiquid, making price discovery tricky, but some projects use a peer-to-peer loan model where lenders can choose which NFT they are willing to accept as collateral.
+7. Examples of NFT projects include Cryptokitties, Gods Unchained, Decentraland, Rarible, SuperRare, OpenSea, Ethereum Naming Service, and Unstoppable Domains.
+8. The NFT space is one of the fastest-growing niches in crypto and has huge potential.

@@ -1,0 +1,19 @@
+Title: Lending And Borrowing In DEFI Explained - Aave, Compound
+
+1. Lending and borrowing is one of the most important elements of any financial system.
+2. DeFi lending allows users to become lenders or borrowers in a completely decentralized and permissionless way while maintaining full custody over their coins.
+3. Aave and Compound are two main lending protocols available in DeFi.
+4. Both of the protocols work by creating money markets for particular tokens, such as ETH, stablecoins like DAI and USDC, or other tokens like LINK or WRAPPED BTC.
+5. In DeFi, at the moment, pretty much all of the loans are over-collateralized.
+6. The interest that lenders receive and the interest that borrowers have to pay are determined by the ratio between supplied and borrowed tokens in a particular market.
+7. The interest APYs are calculated per ETH block.
+8. Aave also offers stable borrow APY.
+9. Stable APY is fixed in the short term, but it can change in the long term to accommodate changes in the supply-demand ratio between tokens.
+10. Aave also offers flash loans, where users can borrow funds with no upfront collateral for a very short period of time, one ETH transaction.
+11. Compound issues C tokens, in this case, C ETH.
+12. C ETH keeps accumulating interest even if it's sent from the original wallet that initiated the deposit to another wallet.
+13. Aave uses a similar model with interest being accumulated every single block.
+14. The main difference is that A token's value is pegged to the value of the underlying tokens at a 1 to 1 ratio.
+15. To determine the value of collateral, Compound uses its own price feed that takes prices from several highly liquid exchanges.
+16. Aave relies on Chainlink and falls back to their own price feed if necessary.
+17. Different lending, although reducing a lot of risks associated with centralized finance, comes with its own risks.
