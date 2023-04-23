@@ -6,4 +6,5 @@ Takes a list of youtube video links:
 
 Reduces into whatever you configured:
 
-~ example tbd
+- [example individual video transcriptions and summaries](https://github.com/MarcoWorms/youtube-videos-reducer/tree/main/example_transcriptions)
+- [example final summary made from all video summaries](https://github.com/MarcoWorms/youtube-videos-reducer/blob/main/example_result.md)
