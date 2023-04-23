@@ -1,4 +1,4 @@
-# youtube-videos-reducer
+# Youtube Video Reducer
 
 Takes a list of youtube video links:
 
