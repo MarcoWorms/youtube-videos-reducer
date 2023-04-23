@@ -1,5 +1,7 @@
 # Youtube Video Reducer
 
+[![](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 Takes a list of youtube video links:
 
 ![image](https://user-images.githubusercontent.com/7863230/233854751-689e352e-1070-4004-af1a-2afa53df8509.png)
