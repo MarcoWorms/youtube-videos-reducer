@@ -11,8 +11,12 @@ def download_audio(youtube_link, file_path):
         "format": "bestaudio/best",
         "outtmpl": f"{file_path}.%(ext)s",
         "postprocessors": [
-            {"key": "FFmpegExtractAudio", "preferredcodec": "mp3", "preferredquality": "192"},
+            {"key": "FFmpegExtractAudio", "preferredcodec": "mp3", "preferredquality": "worse"},
             {"key": "FFmpegMetadata"},
+        ],
+        'postprocessor_args': [
+            '-ar', '16000',  # sample rate
+            '-ac', '1'  # mono
         ],
     }
 
